@@ -1,15 +1,37 @@
 import React from 'react'
 import { FaBars,FaTimes, FaGithub,FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
+import {Link} from 'react-scroll'
 const Navbar = () => {
   return (
     <div className="fixed w-full h-20 flex justify-between items-center px-9 bg-[rgb(18,10,10)] text-gray-500">
       <div>
         <ul className="flex">
-          <li>About me</li>
-          <li>porfolio</li>
-          <li>Resume</li>
-          <li>Contact me</li>
+          <li>
+            <Link to="About Me" smooth={true} duration={500}>
+              {" "}
+              About me
+            </Link>
+          </li>
+
+          <li>
+            <Link to="Portfolio" smooth={true} duration={500}>
+              {" "}
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link to="Resume" smooth={true} duration={500}>
+              {" "}
+              Resume
+            </Link>
+          </li>
+          <li>
+            <Link to="Contact me" smooth={true} duration={500}>
+              {" "}
+              Contact me
+            </Link>
+          </li>
         </ul>
       </div>
 
