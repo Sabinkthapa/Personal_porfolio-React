@@ -1,3 +1,20 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Lato:ital,wght@0,100;1,100&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Kalnia];
+    }
+    li {
+        @apply px-7;
+        @apply cursor-pointer
+    }
+}
+
+
+
+
