@@ -1,14 +1,23 @@
 import React from 'react'
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="w-full bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
-        © 2023 Copyright:
-
-      </div>
-    </div>
+    <footer className="footer p-10 flex justify-center gap-x-7 bg-neutral-50 text-neutral-content fixed bottom-0 w-full">
+      <a href="https://github.com/sabinkthapa/">
+        GitHub <FaGithub size={30} />
+      </a>
+      <a href="https://github.com/sabinkthapa/">
+        Linkedin <FaLinkedin size={30} />
+      </a>
+      <a href="https://github.com/sabinkthapa/">
+        Email <HiOutlineMail size={30} />
+      </a>
+    </footer>
   );
 }
 
-export default Footer;
+export default Footer
+
+
