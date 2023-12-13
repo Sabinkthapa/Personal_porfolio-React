@@ -8,10 +8,10 @@ const Footer = () => {
       <a href="https://github.com/sabinkthapa/">
         GitHub <FaGithub size={30} />
       </a>
-      <a href="https://github.com/sabinkthapa/">
+      <a href="www.linkedin.com/in/sabin-thapa-42715892">
         Linkedin <FaLinkedin size={30} />
       </a>
-      <a href="https://github.com/sabinkthapa/">
+      <a href="www.gmail.com">
         Email <HiOutlineMail size={30} />
       </a>
     </footer>
