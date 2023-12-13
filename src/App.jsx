@@ -1,12 +1,12 @@
 
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
-import Contact  from "./pages/Contact";
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Contact  from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
