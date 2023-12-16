@@ -18,20 +18,20 @@ const Resume = () => {
         </div>
       </div>
       <h2 class="text-black text-2xl text-left mt-6 font-bold">EDUCATION</h2>
-      <ol className="text-base/loose italic">
+      <ol className="text-black bold text-xl mt-3 leading-8 tracking-wide">
         Full Stack Web Development, University of New Brunswick
       </ol>
-      <ol className="text-base/loose italic">
+      <ol className="text-black bold text-xl mt-0 leading-8 tracking-wide">
         MBA, Little Angle's College of Managment
       </ol>
-      <ol className="text-base/loose italic">
+      <ol className="text-black bold text-xl mt-0 leading-8 tracking-wide">
         BBIS, Little Angle's College of Management
       </ol>
 
-      <h3 className="text-indigo-500 text-sl text-center mt-11">
+      <h3 className="text-indigo-500 text-sl text-center mt-4">
         {" "}
         Download Resume:{" "}
-        <a href="https://github.com/Sabinkthapa/Portfolio/tree/main/src/assets/sabinresume.pdf">
+        <a href="https://github.com/Sabinkthapa/Portfolio/tree/main/src/assets/sabinresume.pdf" target='_blank'>
           Sabin Thapa
         </a>
       </h3>

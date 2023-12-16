@@ -37,17 +37,19 @@ alert('Email sucessfully sent!', response);
 };
 
   return (
-    <div className="max-w-[2000px] bg-[rgb(243,243,243)]">
-      <form onSubmit={handleSubmit} className="pt-20 mx-10 mt-10 ">
+    <div className="max-w-[1000px] bg-[rgb(243,243,243)] flex justify-center ">
+      <h1 className="text-indigo-500 text-4xl text-center mt-15 ">Contact Me</h1>
+      <form onSubmit={handleSubmit} className="pt-20 mx-10 mt-0 ">
         <div>
-          <label htmlFor='name'
+          <label
+            htmlFor="name"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
             User
           </label>
           <input
             className="shadow appearance-none border rounded w-70% py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id='name'
+            id="name"
             type="text"
             placeholder="Name"
             value={name}
@@ -55,9 +57,9 @@ alert('Email sucessfully sent!', response);
           />
         </div>
         <div class="mb-6">
-          <label htmlFor='email'
+          <label
+            htmlFor="email"
             className="block text-gray-700 text-sm font-bold mb-2"
-           
           >
             Email Address
           </label>
@@ -71,14 +73,14 @@ alert('Email sucessfully sent!', response);
           />
         </div>
         <div>
-          <label htmlFor='subject'
+          <label
+            htmlFor="subject"
             className="block text-gray-700 text-sm font-bold mb-2"
-           
           >
             Subject
           </label>
           <input
-            className="shadow appearance-none border rounded w-70% py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="subject"
             type="text"
             placeholder="Subject"
@@ -88,7 +90,8 @@ alert('Email sucessfully sent!', response);
         </div>
 
         <div>
-          <label htmlFor='message'
+          <label
+            htmlFor="message"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
             Message
@@ -97,7 +100,7 @@ alert('Email sucessfully sent!', response);
             id="message"
             className="box-content h-32 w-60  p-6 shadow appearance-none border-2 rounded w-90% py-1 px-3  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             type="text"
-            placeholder="message"
+            placeholder="Message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
