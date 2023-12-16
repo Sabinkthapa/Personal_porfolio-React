@@ -3,7 +3,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-20 flex justify-center items-center px-8 bg-[rgb(18,10,10)] text-white">
+    <div className="width:calc(100% - 60px) h-20 flex justify-center items-center px-8 bg-[rgb(18,10,10)] text-white">
       <div>
         <ul className="flex">
           <li >

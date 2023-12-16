@@ -6,17 +6,11 @@ import { Portfoliolist } from '../helpers/Portfoliolist'
 
 const Portfolio = () => {
   return (
-    <div className="max-w-[1000px]  h-[31rem] ml-0 px-10 flex flex-col justify-center ">
-      <h1 class="mt-40 text-indigo-300 text-2xl text-center">PORTFOLIO</h1>
-      <div className="w-70v min-h-[10rem] grid grid-cols-3 gap-4 place-items-center">
+    <div className="max-w-[2000px] bg-[rgb(243,243,243)] h-[50rem] ml-0 px-10 flex flex-col justify-center ">
+      <h1 className="text-indigo-500 text-4xl text-center mt-15">PORTFOLIO</h1>
+      <div className="w-50v min-h-[8rem] grid grid-cols-3 gap-2 place-items-center">
         {Portfoliolist.map((project) => {
-          return (
-            <Portfolioitems
-              name={project.name}
-              image={project.image}
-              className="rounded-lg w-72 h-72 m-10 shadow-md flex justify-center items-center"
-            />
-          );
+          return <Portfolioitems name={project.name} image={project.image} git={project.github} deploy={project.deploy} />;
         })}
       </div>
     </div>

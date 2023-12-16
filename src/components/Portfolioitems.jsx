@@ -1,14 +1,25 @@
 import React from 'react'
-// import { FaGithub } from "react-icons/fa";
-// import { AiOutlineDeploymentUnit } from "react-icons/ai";
-const Portfolioitems = ({image,name}) => {
+import { FaGithub } from "react-icons/fa";
+import { FcDeployment } from "react-icons/fc";
+ 
+
+
+const Portfolioitems = (props) => {
   return (
-    <div className="rounded-lg w-72 h-72 m-10 shadow-md flex items-center justify-center">
+    <div className="rounded-lg m-10 shadow-md text-center">
       <div
-        style={{ backgroundImage: `url(${image})` }}
-        className="rounded-tl-lg rounded-tr-lg h-48 bg-cover bg-center bg-no-repeat:"
+        style={{ backgroundImage: `url(${props.image})` }}
+        className="rounded-tl-lg rounded-tr-lg w-40 h-40 bg-cover bg-center bg-no-repeat transition duration-300 ease-in-out transform hover:scale-105"
       />
-      <h1>{name}</h1>
+      <h1>{props.name}</h1>
+      <div>
+        <a href={props.git} target="_blank">
+          <FaGithub size={30} />
+        </a>
+        <a href={props.deploy} target="_blank">
+          <FcDeployment size={30} />
+        </a>
+      </div>
     </div>
   );
 }
