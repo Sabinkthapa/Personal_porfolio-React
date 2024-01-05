@@ -14,10 +14,7 @@ const Footer = () => {
       >
         Linkedin <FaLinkedin size={30} />
       </a>
-      <a
-        href="https://personal-porfolio-react.netlify.app/Contact"
-        target="_blank"
-      >
+      <a href="https://www.gmail.com" target="_blank">
         Email <HiOutlineMail size={30} />
       </a>
     </footer>
