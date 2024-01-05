@@ -42,7 +42,7 @@ export const Portfoliolist = [
         name:"Book-store",
         image: Bookstore,
         github:"https://github.com/Sabinkthapa/Personal_porfolio-React.git",
-        deploy:"https://personal-porfolio-react.netlify.app/"
+        deploy:"https://storebook-app.netlify.app/"
     },
 
   
