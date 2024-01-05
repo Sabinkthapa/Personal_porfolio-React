@@ -3,6 +3,8 @@ import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.jpg";
 import project5 from "../assets/project5.png";
+import Bookstore from "../assets/Bookstore.png";
+
 import github from "../assets/logo/git.png"
 import deploy from "../assets/logo/deploy.png"
 
@@ -37,10 +39,10 @@ export const Portfoliolist = [
         deploy:""
     },
     {
-        name:"Catering-App",
-        image: project5,
-        github:"https://github.com/Valleyleaf/Catering-Application.git",
-        deploy:""
+        name:"Book-store",
+        image: Bookstore,
+        github:"https://github.com/Sabinkthapa/Personal_porfolio-React.git",
+        deploy:"https://personal-porfolio-react.netlify.app/"
     },
 
   
