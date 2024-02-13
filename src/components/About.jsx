@@ -11,11 +11,13 @@ const About = () => {
 
           <p className="text-black bold text-xl mt-3 leading-8 tracking-wide">
             <span>
-              I am a Front End web developer, with a strong background and
-              experiences of business management, added by ability to comprehend
-              user behavior, preferences and business objectives while providing
-              technical solution to the web application. My strengths includes
-              teamwork, creativity and problem-Solving.
+              I am a Front -end web developer, with a strong background and
+              experiences of business administration and information system,
+              added by ability to comprehend user behavior, preferences and
+              business objectives while providing technical solution to the web
+              development/application projects. Teamwork, creativity and problem
+              solving are key strength that I can leverage to thrive in
+              workplace
             </span>
           </p>
         </div>

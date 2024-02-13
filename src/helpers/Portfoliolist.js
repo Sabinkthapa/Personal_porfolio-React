@@ -33,10 +33,10 @@ export const Portfoliolist = [
         deploy:"https://simply-notetaker-fd25a61d938e.herokuapp.com/"
     },
     {
-        name:"snippet-spark",
+        name:"CodeInterviewPro",
         image: project5,
-        github:"https://github.com/Kirill777-web/Snippet-Spark.git",
-        deploy:""
+        github:"https://github.com/Sabinkthapa/CodeInterviewPro.git",
+        deploy:"https://code-interiew-pro.onrender.com/"
     },
     {
         name:"Book-store",
